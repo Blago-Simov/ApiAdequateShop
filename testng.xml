@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/35989/IdeaProjects/ApiTesting">
+        <classes>
+            <class name="Tests.AdequateShopApiTests">
+                <methods>
+                    <include name="SuccessfulUserRegistration"/>
+                    <include name="SuccessfulRegistrationAndLogin"/>
+                    <include name="SuccessfulLoginAndGetUser"/>
+                    <include name="invalidPassword"/>
+                    <include name="invalidEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
